@@ -9,6 +9,6 @@ module "elastic_cache_redis" {
     global_vpc_subnet_cidr = "10.111.123.0/22"
     elasticache_subnets= "subnet-a, subnet-b"
     elasticache_azs = "eu-west-1a, eu-west-1b"
-    elasticache_topic_arn = "arn::..etc"
+    elasticache_topic_arn = "arn::..etc" // notification arn here.
 }
 ```
